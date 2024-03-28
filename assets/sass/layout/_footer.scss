@@ -1,0 +1,72 @@
+footer{
+    background-color: black;
+    position: relative;
+    width: 100%;
+    min-height: 350px;
+    padding: 3rem 1rem;
+}
+.div_container{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.col{
+    min-width: 250px;
+    color: white;
+    padding: 0 2rem;
+}
+.col h3{
+    color: white;
+    margin-bottom: 20px;
+    position: relative;
+    
+}
+.col .logo{
+    width: 100px;
+    margin-bottom: 25px;
+}
+.col .socials a i{
+    margin-top: 2rem;
+    color: gray;
+}
+.col .links a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 5px;
+}
+form{
+    position: relative;
+
+}
+form input{
+    position: absolute;
+    height: 35px;
+    width: 220px;
+    margin: 8px 6px;
+    border: none;
+    outline: none;
+    padding: 6px;
+    font-size: 14px;
+}
+form .btn{
+    height: 35px;
+    background: orange;
+    border: none;
+    padding: 13px 23px 12px;
+    margin: 8px 0px;
+    position: absolute;
+    left: 60%;
+    font-weight: 600;
+    cursor: pointer;
+    color: gray;
+}
